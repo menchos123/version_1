@@ -1,0 +1,477 @@
+
+        /* Variables de color de la identidad visual de Mencho's */
+        :root {
+            --color-rojo-oscuro: #5E0006;
+            --color-rojo-intenso: #ad1e13;
+            --color-naranja-rojizo: #D53E0F;
+            --color-beige-claro: #EED9B9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fdfbf7;
+            color: #333333;
+        }
+
+        /* Styling Navbar */
+        .navbar-menchos {
+            background-color: var(--color-rojo-oscuro);
+            border-bottom: 3px solid var(--color-naranja-rojizo);
+        }
+
+        .navbar-menchos .navbar-brand {
+            color: var(--color-beige-claro);
+            font-weight: 800;
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+
+        .navbar-menchos .navbar-brand:hover {
+            color: #ffffff;
+        }
+
+        .navbar-menchos .nav-link {
+            color: var(--color-beige-claro);
+            font-weight: 500;
+            margin: 0 5px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-menchos .nav-link:hover,
+        .navbar-menchos .nav-link.active {
+            color: #ffffff;
+            border-bottom: 2px solid var(--color-naranja-rojizo);
+        }
+
+        /* Styling Hero Section */
+        .hero-section {
+            position: relative;
+            display: flex;
+            align-items: center;
+            min-height: 480px;
+            padding: 80px 0;
+            color: var(--color-beige-claro);
+            overflow: hidden;
+            background-image: linear-gradient(rgba(46, 8, 10, 0.45), rgba(46, 8, 10, 0.45)),
+                              url("WhatsApp Image 2026-09-23 at 9.54.50 AM.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-title {
+            font-weight: 800;
+            font-size: 3rem;
+            color: #ffffff;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 25px;
+            color: var(--color-beige-claro);
+        }
+
+        .btn-menchos-primary {
+            background-color: var(--color-naranja-rojizo);
+            color: #ffffff;
+            font-weight: 700;
+            padding: 12px 30px;
+            border-radius: 30px;
+            border: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-menchos-primary:hover {
+            background-color: #b8330c;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .btn-menchos-outline {
+            border: 2px solid var(--color-beige-claro);
+            color: var(--color-beige-claro);
+            font-weight: 600;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-menchos-outline:hover {
+            background-color: var(--color-beige-claro);
+            color: var(--color-rojo-oscuro);
+        }
+
+        .badge-custom {
+            background-color: var(--color-naranja-rojizo);
+            color: #ffffff;
+            font-size: 0.9rem;
+            padding: 6px 14px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        /* Styling Footer */
+        .footer-menchos {
+            background-color: var(--color-rojo-oscuro);
+            color: var(--color-beige-claro);
+            border-top: 4px solid var(--color-naranja-rojizo);
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+
+        .footer-menchos h5 {
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--color-naranja-rojizo);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .footer-menchos a {
+            color: var(--color-beige-claro);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .footer-menchos a:hover {
+            color: var(--color-naranja-rojizo);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(238, 217, 185, 0.2);
+            margin-top: 40px;
+            padding-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        .social-icon {
+            font-size: 1.4rem;
+            margin-right: 15px;
+            color: var(--color-beige-claro);
+        }
+
+        .social-icon:hover {
+            color: var(--color-naranja-rojizo);
+        }
+        .menu-preview {
+             background-color: var(--color-rojo-oscuro);
+            border-bottom: 3px solid var(--color-naranja-rojizo);
+        }
+        .menu-card-icon {
+            font-weight: 800;
+            font-size: 3rem;
+            color: #ffffff;
+        }
+        .subtitle{
+            font-size: 1.25rem;
+            margin-bottom: 25px;
+            color: var(--color-beige-claro);
+        }
+        .menu-price {
+            font-weight: 800;
+            font-size: 3rem;
+            color: #ffffff;
+        }
+        .title{
+            font-size: 1.25rem;
+            margin-bottom: 25px;
+            color: #ffffff
+        }
+.about-section {
+    padding: 80px 0;
+}
+
+.about-section .section-subtitle {
+    display: inline-block;
+    color: var(--color-naranja-rojizo);
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.about-section .section-title {
+    color: var(--color-rojo-oscuro);
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+
+/* Texto de la historia */
+
+.about-section .about-text {
+    color: #555;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+
+/* Línea decorativa debajo del título */
+
+.about-section .section-title::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 4px;
+    background-color: var(--color-naranja-rojizo);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+/* ---------------------------------------------------------
+   SECCIÓN: LO QUE NOS REPRESENTA
+   --------------------------------------------------------- */
+
+.about-section.bg-light {
+    background-color: #f8f1e7 !important;
+    position: relative;
+}
+
+
+/* Encabezado */
+
+.about-section.bg-light .section-title {
+    margin-bottom: 15px;
+}
+
+.about-section.bg-light .text-muted {
+    color: #666 !important;
+    line-height: 1.7;
+}
+
+
+/* Tarjetas de valores */
+
+.about-section .value-card {
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 35px 25px;
+    border: 1px solid rgba(94, 0, 6, 0.08);
+    box-shadow: 0 8px 25px rgba(94, 0, 6, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Pequeño detalle naranja en la parte superior */
+
+.about-section .value-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-naranja-rojizo);
+}
+
+
+/* Efecto al pasar el mouse */
+
+.about-section .value-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(94, 0, 6, 0.15);
+}
+
+
+/* Iconos */
+
+.about-section .value-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-beige-claro);
+    color: var(--color-rojo-oscuro);
+
+    border-radius: 50%;
+    font-size: 1.8rem;
+
+    transition: all 0.3s ease;
+}
+
+
+.about-section .value-card:hover .value-icon {
+    background-color: var(--color-naranja-rojizo);
+    color: #ffffff;
+    transform: scale(1.08);
+}
+
+
+/* Títulos de las tarjetas */
+
+.about-section .value-card h4 {
+    color: var(--color-rojo-oscuro);
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+
+/* Texto de las tarjetas */
+
+.about-section .value-card p {
+    color: #666;
+    font-size: 0.98rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   SECCIÓN MISIÓN Y VISIÓN
+   --------------------------------------------------------- */
+
+.mission-section {
+    padding: 75px 0;
+    background-color: #fdfbf7;
+}
+
+
+.mission-box {
+    height: 100%;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+
+    border-left: 5px solid var(--color-naranja-rojizo);
+
+    box-shadow: 0 8px 25px rgba(94, 0, 6, 0.08);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.mission-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(94, 0, 6, 0.13);
+}
+
+
+.mission-box h3 {
+    color: var(--color-rojo-oscuro);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+
+.mission-box h3 i {
+    color: var(--color-naranja-rojizo);
+}
+
+
+.mission-box p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   FRASE / CITA
+   --------------------------------------------------------- */
+
+.quote-section {
+    padding: 75px 20px;
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        var(--color-rojo-oscuro),
+        var(--color-rojo-intenso)
+    );
+
+    color: var(--color-beige-claro);
+}
+
+
+.quote-icon {
+    font-size: 3rem;
+    color: var(--color-naranja-rojizo);
+    line-height: 1;
+}
+
+
+.quote-text {
+    max-width: 800px;
+    margin: 20px auto 15px;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+    color: #ffffff;
+}
+
+
+.quote-author {
+    color: var(--color-beige-claro);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   RESPONSIVE
+   --------------------------------------------------------- */
+
+@media (max-width: 991px) {
+
+    .about-section {
+        padding: 60px 0;
+    }
+
+    .about-section .section-title {
+        font-size: 2.1rem;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .about-section {
+        padding: 50px 0;
+    }
+
+    .about-section .section-title {
+        font-size: 1.9rem;
+    }
+
+    .about-section .about-text {
+        font-size: 1rem;
+    }
+
+    .about-section .value-card {
+        padding: 30px 20px;
+    }
+
+    .mission-section {
+        padding: 55px 0;
+    }
+
+    .mission-box {
+        padding: 28px 22px;
+    }
+
+    .quote-section {
+        padding: 55px 15px;
+    }
+
+    .quote-text {
+        font-size: 1.3rem;
+    }
+
+}
